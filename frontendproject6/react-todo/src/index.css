@@ -1,0 +1,157 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* Background */
+body {
+  height: 100vh;
+    padding: 40px; /* adds outer breathing space */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* App Container */
+.app {
+  width: 100%;
+  max-width: 520px;   /* 🔥 increased from 420 → 520 */
+  padding: 45px 40px; /* 🔥 more internal space */
+  border-radius: 25px;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.3);
+
+  text-align: center;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* more spacing */
+}
+
+/* Title */
+h1 {
+  font-weight: 600;
+}
+
+/* Input section */
+.input-group {
+  display: flex;
+  gap: 12px;
+}
+
+input {
+  flex: 1;
+  padding: 14px; /* bigger */
+  border-radius: 12px;
+}
+
+button {
+  padding: 12px 16px; /* bigger buttons */
+  border-radius: 12px;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* Add button */
+.add-btn {
+  background: #ffffff;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.filters button {
+  padding: 10px 12px;
+  border-radius: 12px;
+}
+
+/* Task list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Task item */
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 16px 14px; /* more height */
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 12px;
+
+  transition: 0.3s;
+}
+
+.todo-item:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Left section */
+.todo-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Completed task */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+/* Actions (buttons on right) */
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions button {
+  padding: 6px 10px;
+}
+
+/* Counter */
+.counter {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .app {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}
