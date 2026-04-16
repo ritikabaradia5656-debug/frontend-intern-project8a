@@ -1,16 +1,30 @@
-# React + Vite
+# 📝 Blog App (Project 8)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React Blog Application built with Vite that allows users to create, edit, and manage blogs with a clean UI and dark/light theme support.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Create, edit, and delete blog posts  
+- View detailed blog pages  
+- Dark / Light mode toggle  
+- Data persistence using LocalStorage  
+- Context API for state management  
+- Markdown-style content rendering  
+- Clean pastel UI design  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-## 📸 Screenshots
+---
+
+## 🛠️ Tech Stack
+
+- React (Vite)
+- React Router
+- Context API
+- CSS (Custom Styling)
+- LocalStorage
+
+---
 
 ## 📸 Screenshots
 
@@ -26,6 +40,60 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ### 🌙 Dark Mode
 ![Dark](./public/4.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+git clone <your-repo-link>
+cd frontendproject8
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+
+---
+
+## 📁 Project Structure
+
+src/
+ ├── context/        # Theme & Blog state
+ ├── pages/          # Home, Create, Edit, Detail
+ ├── assets/         # Images
+ ├── App.jsx
+ └── main.jsx
+
+---
+
+## 🌟 Key Highlights
+
+- Built using React best practices  
+- Clean and reusable components  
+- Smooth UI with theme switching  
+- Beginner-friendly and scalable  
+
+---
+
+## 📌 Future Improvements
+
+- Add authentication  
+- Connect backend (API + database)  
+- Rich Markdown editor  
+- Like & Comment system  
+
+---
+
+## 👩‍💻 Author
+
+Ritika Jain
+
+---
+
+## ⭐ If you like this project
+
+Give it a star on GitHub!
