@@ -29,10 +29,10 @@ A modern React Blog Application built with Vite that allows users to create, edi
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home](./public/1.png)
+![Home](./public/2.png)
 
 ### ✍️ Create Blog
-![Create](./public/2.png)
+![Create](./public/1.png)
 
 ### 📖 Blog Detail
 ![Detail](./public/3.png)
